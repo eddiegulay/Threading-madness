@@ -24,3 +24,18 @@ Open the script file (`multi_threaded_search.py`) in a text editor and modify th
 
 ```bash
 python multi_threaded_search.py
+```
+
+The script will output whether the search item was found or not, and if found, it will display the corresponding row(s) from the dataset.
+
+
+# Important Notes
+This script is designed for searching through large datasets using multiple threads. Keep in mind that the effectiveness of multi-threading depends on the nature of the search operation and the dataset size.
+Carefully review and test the script for your specific use case before deployment.
+The script assumes that the dataset is in CSV format. If your dataset is in a different format, modify the data loading part accordingly. (sorry though, I'm too lazy to do it for you 😪)
+
+# Author
+- [Eddie Gulay](eddiegulay.me)
+
+For question and support please contact me at [edgargulay@outlook.com](mailto:edgargulay@outlook.com) or [on X(twitter) @eddiegulay]
+
